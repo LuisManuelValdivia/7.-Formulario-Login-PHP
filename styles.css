@@ -1,0 +1,53 @@
+body{
+	font-family: sans-serif;
+	background: #204862;
+}
+
+h1 {
+	color: #fff;
+	text-align: center;
+}
+
+h2{
+	background: deepskyblue;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	font-weight: 100;
+	font-size:30x;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom: 5px solid rgb(220, 20, 60);
+}
+
+form{
+	width: 70%;
+	max-width: 500px;	
+	margin: auto;
+	background: #fff;
+	border-radius: 10px;
+}
+
+div{
+	text-align: left;
+    padding: 10px 30px;
+}
+
+input{
+	width: 90%;
+	max-width: 500px;
+    margin-bottom: 15px;
+	padding: 15px;
+	font-size: 16px;
+	border-radius: 3px;
+	border: 1px solid rgb(214, 201, 201);
+}
+
+.enviar{
+	background: crimson;
+    width: 97%;
+	color: #fff;
+	padding: 10px 40px;
+	cursor: pointer;
+	font-size: 20px;
+}

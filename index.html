@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <form action="./procesar.php" method="POST">
+        <h2>Inicio de sesión</h2>
+        <div>
+            <label for="usuario">Usuario:</label><br>
+            <input type="text" id="user" name="user" placeholder="Usuario" pattern="^luis$" title="Usuario no válido" required><br>
+
+            <label for="pass">Contraseña:</label><br>
+            <input type="password" id="password" name="password" pattern="^mendoza$" title="Contraseña incorrecta" required><br>
+        
+            <label for="edad">Edad:</label><br>
+            <input type="text" id="edad" name="edad" placeholder="Mayor a 18 años" min="18" title="Edad inválida" required><br>
+
+            <input type="submit" class="enviar" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>
